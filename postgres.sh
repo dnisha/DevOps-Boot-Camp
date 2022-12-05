@@ -7,5 +7,11 @@ else
     mkdir ~/Documents/DevOps/postgres-data
 fi
 
-podman run --rm -it -p 8081:8080 -v ~/Documents/DevOps/postgres-data:/var/lib/postgresql/data --name postgres -e POSTGRES_PASSWORD=mysecretpassword  docker.io/library/postgres:11-alpine
+podman run --rm -it -p 5432:5432 -v ~/Documents/DevOps/postgres-data:/var/lib/postgresql/data --name postgres -e POSTGRES_PASSWORD=mysecretpassword postgres
+
+# user - postgres
+# passwqord - mysecretpassword
+# SELECT NOW()
+
+
 
