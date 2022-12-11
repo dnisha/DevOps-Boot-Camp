@@ -7,7 +7,7 @@ else
     mkdir ~/Documents/DevOps/postgres-data
 fi
 
-podman run --rm -it -p 5432:5432 -v ~/Documents/DevOps/postgres-data:/var/lib/postgresql/data --name postgres -e POSTGRES_PASSWORD=mysecretpassword postgres
+podman run --rm -it -p 5432:5432 -v ~/Documents/DevOps/postgres-data:/var/lib/postgresql/data --name postgres -e POSTGRES_PASSWORD=mysecretpassword postgres:14.4
 
 # user - postgres
 # passwqord - mysecretpassword
