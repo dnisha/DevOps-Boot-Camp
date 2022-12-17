@@ -1,7 +1,3 @@
 HELP.md
 postgres-data/
-.classpath
-.project
-.settings/
-target/
-.idea/
+
