@@ -1,4 +1,7 @@
 HELP.md
-java-liquibase-rdbms/target/
 postgres-data/
-
+.classpath
+.project
+.settings/
+/java-liquibase-rdbms/target/
+.idea/
