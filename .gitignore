@@ -3,5 +3,5 @@ postgres-data/
 .classpath
 .project
 .settings/
-/java-liquibase-rdbms/target/
+**/target/
 .idea/
