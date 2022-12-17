@@ -1,5 +1,5 @@
 HELP.md
-java-liquibase-rdbms/target/
+**/target/
 postgres-data/
 .mvn
 
