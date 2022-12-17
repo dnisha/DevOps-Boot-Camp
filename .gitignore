@@ -3,5 +3,5 @@ postgres-data/
 .classpath
 .project
 .settings/
-**/target/
+target/
 .idea/
